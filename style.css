@@ -37,6 +37,8 @@ p {
     margin-top: 16px;
 }
 
+/* card */
+
 .ckeys {
     background: #161616;
     border: 1px solid #333333;
@@ -50,9 +52,30 @@ p {
     transition: border-color 0.2s ease;
 }
 
+.chr {
+    background: #252525;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
+/* hover */
+
 .ckeys:hover {
     border-color: #1eff00;
 }
+
+.chr:hover {
+    border-color: #0004ff;
+}
+
+/* img */
 
 .ckeys img {
     width: 100%;
@@ -61,12 +84,23 @@ p {
     display: block;
 }
 
+.chronicles img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+/* h3 */
+
 .ckeys h3 {
     font-size: 22px;
     font-weight: 600;
     margin: 16px 0 8px 0;
     color: #ffffff;
 }
+
+/* p */
 
 .ckeys p {
     font-size: 15px;
@@ -75,6 +109,8 @@ p {
     margin: 0 0 20px 0;
     flex-grow: 1;
 }
+
+/* button */
 
 .ckeys button {
     display: inline-block;
@@ -91,32 +127,7 @@ p {
     transition: background-color 0.15s ease;
 }
 
-.ckeys button:hover {
-    background: #e4e4e7;
-}
-
-.ckeys button:active {
-    background: #d4d4d8;
-}
-
-.chr {
-    background: #252525;
-    border: 1px solid #333333;
-    border-radius: 12px;
-    width: 100%;
-    max-width: 380px;
-    padding: 16px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    transition: border-color 0.2s ease;
-}
-
-.chr:hover {
-    border-color: #0004ff;
-}
-
-.chr button {
+.chronicles button {
     display: inline-block;
     background: #ffffff;
     color: #000000;
@@ -128,3 +139,12 @@ p {
     align-self: flex-start;
     transition: background-color 0.15s ease;
 }
+
+
+
+/* button hover */
+
+.ckeys button:hover {
+    background: #e4e4e7;
+}
+
