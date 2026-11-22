@@ -10,6 +10,18 @@ h1 {
     margin-bottom: 5px;
 }
 
+h1:hover, h2:hover, h3:hover {
+    animation: shake 1.5s infinite ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+}
+
 h2 {
     font-size: 50px;
     margin-bottom: 5px;
@@ -39,6 +51,20 @@ p {
 
 .experience a {
     color: white;
+}
+
+li {
+    transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: translateX(10px);
+}
+
+.cp {
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+    display: inline-block;
 }
 
 /* card */
