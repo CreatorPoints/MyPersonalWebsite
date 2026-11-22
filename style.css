@@ -76,7 +76,19 @@ li:hover {
     border-radius: 15px;
     border-color: white;
     border-style: solid;
-    padding: 30px
+    padding: 30px;
+    background: #161616;
+    margin-bottom: 20px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: white;
+    padding: 20px
 }
 /* card */
 
