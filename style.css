@@ -70,9 +70,15 @@ li:hover {
 }
 
 .cp {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bricolage Grotesque', sans-serif;
     color: whitesmoke;
+    font-weight: 800;
     display: inline-block;
+    background: rgb(54, 54, 54);
+    border-style: solid;
+    border-color:white;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .projects {
