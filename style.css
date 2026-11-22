@@ -49,7 +49,7 @@ p {
     margin-top: 16px;
 }
 
-.experience a {
+a {
     color: white;
 }
 
@@ -67,6 +67,17 @@ li:hover {
     display: inline-block;
 }
 
+.projects {
+    margin-bottom: 100px;
+}
+
+.hero {
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    padding: 30px
+}
 /* card */
 
 .ckeys {
