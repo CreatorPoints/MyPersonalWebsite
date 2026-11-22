@@ -121,6 +121,15 @@ li:hover {
 .action button {
     align-self: auto;
 }
+
+.experience {
+    margin-top: 20px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 15px;
+}
 /* card */
 
 .ckeys {
