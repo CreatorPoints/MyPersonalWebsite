@@ -135,6 +135,12 @@ footer {
     color: rgb(131, 131, 131);
     text-align: center;
 }
+
+.unavailable:disabled {
+    opacity:0.5;
+    cursor: not-allowed;
+}
+
 /* card */
 
 .ckeys {

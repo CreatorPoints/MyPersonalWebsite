@@ -1,5 +1,5 @@
 document.getElementById("ckeys-gh").addEventListener("click", () => {
-    window.open("https://github.com/CreatorPoints/CompanionKeys", "_blank");
+    window.open("https://github.com/CreatorPoints/Companion-Keys", "_blank");
 });
 document.getElementById("chro-gh").addEventListener("click", () => {
     window.open("https://github.com/CreatorPoints/Chronicles", "_blank");
@@ -22,18 +22,18 @@ document.getElementById("ethere-si").addEventListener("click", () => {
 document.getElementById("dpet-gh").addEventListener("click", () => {
     window.open("https://github.com/CreatorPoints/DeskPet", "_blank");
 });
-document.getElementById("kysymph-gh").addEventListener("click", () => {
+document.getElementById("ksymph-gh").addEventListener("click", () => {
     window.open("https://github.com/CreatorPoints/Keyboard-Symphony", "_blank");
 });
 document.getElementById("kos-gh").addEventListener("click", () => {
     window.open("https://github.com/CreatorPoints/Krypton-OS", "_blank");
 });
 document.getElementById("kos-de").addEventListener("click", () => {
-    window.open("https://krypton-os.dino.icu", "_blank");
+    window.open("https://krypton-os.web.app", "_blank");
 });
 document.getElementById("fpet-gh").addEventListener("click", () => {
     window.open("https://github.com/CreatorPoints/FigPET", "_blank");
 });
-document.querySelectorAll("#unavailable").forEach(button => {
+document.querySelectorAll(".unavailable").forEach(button => {
     button.disabled = true;
 });
