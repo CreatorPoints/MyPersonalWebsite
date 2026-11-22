@@ -37,6 +37,10 @@ p {
     margin-top: 16px;
 }
 
+.experience a {
+    color: white;
+}
+
 /* card */
 
 .ckeys {
