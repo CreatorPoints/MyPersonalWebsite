@@ -91,6 +91,71 @@ p {
     transition: border-color 0.2s ease;
 }
 
+.ethere {
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
+.dpet {
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
+.ksymph {
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
+.kos {
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
+.fpet {
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
 /* hover */
 
 .ckeys:hover {
@@ -107,6 +172,26 @@ p {
 
 .apexffb:hover {
     border-color: #00ffff;
+}
+
+.ethere:hover {
+    border-color: #0084ff;
+}
+
+.dpet:hover {
+    border-color: #8c00ff;
+}
+
+.ksymph:hover {
+    border-color: #ff008c;
+}
+
+.kos:hover {
+    border-color: #ff0000;
+}
+
+.fpet:hover {
+    border-color: #ffffff;
 }
 
 /* img */
@@ -133,6 +218,41 @@ p {
 }
 
 .apexffb img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.ethere img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.dpet img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.ksymph img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.kos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.fpet img {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -169,6 +289,41 @@ p {
     color: #ffffff;
 }
 
+.ethere h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
+.dpet h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
+.ksymph h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
+.kos h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
+.fpet h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
 /* p */
 
 .ckeys p {
@@ -196,6 +351,46 @@ p {
 }
 
 .apexffb p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.ethere p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.dpet p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.ksymph p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.kos p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.fpet p {
     font-size: 15px;
     line-height: 1.5;
     color: #a1a1aa;
@@ -259,6 +454,71 @@ p {
     transition: background-color 0.15s ease;
 }
 
+.ethere button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
+}
+
+.dpet button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
+}
+
+.ksymph button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
+}
+
+.kos button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
+}
+
+.fpet button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
+}
+
 /* button hover */
 
 .ckeys button:hover {
@@ -274,5 +534,25 @@ p {
 }
 
 .apexffb button:hover {
+    background: #e4e4e7;
+}
+
+.ethere button:hover {
+    background: #e4e4e7;
+}
+
+.dpet button:hover {
+    background: #e4e4e7;
+}
+
+.ksymph button:hover {
+    background: #e4e4e7;
+}
+
+.kos button:hover {
+    background: #e4e4e7;
+}
+
+.fpet button:hover {
     background: #e4e4e7;
 }
