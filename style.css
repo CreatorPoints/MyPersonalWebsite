@@ -51,7 +51,7 @@ p {
 }
 
 .ckeys:hover {
-    border-color: #555555;
+    border-color: #1eff00;
 }
 
 .ckeys img {
@@ -97,4 +97,34 @@ p {
 
 .ckeys button:active {
     background: #d4d4d8;
+}
+
+.chr {
+    background: #252525;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
+.chr:hover {
+    border-color: #0004ff;
+}
+
+.chr button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
 }
