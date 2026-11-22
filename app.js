@@ -34,3 +34,6 @@ document.getElementById("kos-de").addEventListener("click", () => {
 document.getElementById("fpet-gh").addEventListener("click", () => {
     window.open("https://github.com/CreatorPoints/FigPET", "_blank");
 });
+document.querySelectorAll("#unavailable").forEach(button => {
+    button.disabled = true;
+});
