@@ -39,7 +39,15 @@ p {
 
 .likings {
     display: flex;
-    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 15px;
+    
+}
+
+.text {
+    justify-content: flex-end;
 }
 
 .project-container {
@@ -88,7 +96,24 @@ li:hover {
     border-width: 2px;
     border-radius: 15px;
     border-color: white;
-    padding: 20px
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutme img {
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.action button {
+    align-self: auto;
 }
 /* card */
 
