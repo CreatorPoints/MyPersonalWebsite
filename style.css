@@ -65,14 +65,48 @@ p {
     transition: border-color 0.2s ease;
 }
 
+.tninja {
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
+.apexffb {
+    background: #333333;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
 /* hover */
 
 .ckeys:hover {
-    border-color: #1eff00;
+    border-color: #ff0000;
 }
 
-.chr:hover {
-    border-color: #0004ff;
+.chronicles:hover {
+    border-color: #ffbb00;
+}
+
+.tninja:hover {
+    border-color: #48ff00;
+}
+
+.apexffb:hover {
+    border-color: #00ffff;
 }
 
 /* img */
@@ -91,6 +125,20 @@ p {
     display: block;
 }
 
+.tninja img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.apexffb img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
 /* h3 */
 
 .ckeys h3 {
@@ -100,9 +148,54 @@ p {
     color: #ffffff;
 }
 
+.chronicles h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
+.tninja h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
+.apexffb h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
 /* p */
 
 .ckeys p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.chronicles p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.tninja p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.apexffb p {
     font-size: 15px;
     line-height: 1.5;
     color: #a1a1aa;
@@ -140,7 +233,31 @@ p {
     transition: background-color 0.15s ease;
 }
 
+.tninja button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
+}
 
+.apexffb button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
+}
 
 /* button hover */
 
@@ -148,3 +265,14 @@ p {
     background: #e4e4e7;
 }
 
+.chronicles button:hover {
+    background: #e4e4e7;
+}
+
+.tninja button:hover {
+    background: #e4e4e7;
+}
+
+.apexffb button:hover {
+    background: #e4e4e7;
+}
