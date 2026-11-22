@@ -2,12 +2,99 @@ body {
     background : black;
     color : white;
     font-family: 'Space Grotesk', sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.likings {
+    display: flex;
+    justify-content: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 16px;
 }
 
 .ckeys {
-    border: 2px solid white;
-    background: rgb(51, 50, 50);
-    border-radius: 5px;
-    width: 256px;
-    padding: 10px;
+    background: #161616;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+}
+
+.ckeys:hover {
+    border-color: #555555;
+}
+
+.ckeys img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.ckeys h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    color: #ffffff;
+}
+
+.ckeys p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a1a1aa;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.ckeys button {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.15s ease;
+}
+
+.ckeys button:hover {
+    background: #e4e4e7;
+}
+
+.ckeys button:active {
+    background: #d4d4d8;
 }
