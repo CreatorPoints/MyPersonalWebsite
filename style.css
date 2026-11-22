@@ -130,6 +130,11 @@ li:hover {
     border-width: 2px;
     padding: 15px;
 }
+
+footer {
+    color: rgb(131, 131, 131);
+    text-align: center;
+}
 /* card */
 
 .ckeys {
