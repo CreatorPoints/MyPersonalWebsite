@@ -14,7 +14,7 @@ git clone https://github.com/CreatorPoints/MyPersonalWebsite
 cd MyPersonalWebsite
 python -m http.server 8080
 ```
-Lets go! now headup to your website and type:
+Lets go! now headup to your browser and type:
 ```
 http://localhost:8080
 ```
