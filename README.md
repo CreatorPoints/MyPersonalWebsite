@@ -21,5 +21,5 @@ http://localhost:8080
 ```
 and tada! my portfolio page now running locally!
 
-## Licence
-This program is licensed under the MIT Licence. Check LICENCE.md for more info
+## License
+This program is licensed under the MIT License. Check LICENSE.md for more info
